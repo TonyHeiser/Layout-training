@@ -1,0 +1,25 @@
+.blue, .indigo, .magenta {
+  width: 400px;
+  height: 400px;
+  filter: blur(120px);
+}
+
+.blue {
+  background-color: #00FFE0;
+}
+
+.indigo {
+  background-color: #0500FF;
+}
+
+.magenta {
+  background-color: #FF0D6A;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 250px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
